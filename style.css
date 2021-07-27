@@ -4,6 +4,8 @@
 :root {
     --primary-color: #FBBF24;
     --secondary-color: #E5E7EB;
+    --tertiary-color: #FEF3C7;
+
 }
 
 body {
@@ -32,7 +34,21 @@ main {
     height: 40%;
 }
 
+#privacy-notice {
+    background-color: var(--tertiary-color);
+    padding: 0.1rem;
+    width: 70%;
+    margin: auto;
+    margin-top: 0.5rem;
+    position: relative;
+}
 
+.close-btn {
+    position: absolute;
+    right: 6px;
+    top: 4px;
+    cursor: pointer;
+}
 
 #input-date {
     margin-top: 2rem;
