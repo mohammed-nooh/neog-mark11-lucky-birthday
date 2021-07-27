@@ -23,7 +23,7 @@ function checkHandler(){
         sum+=Number(i);
     }
     // console.log(sum);
-    if(sum % luckyNumber ===0){
+    if(sum % luckyNumber ==0){
         messageHandler("YAY you are lucky");
         imageElement.src="images/happy.svg";
     }else{
