@@ -24,6 +24,7 @@ main {
     background-color: var(--primary-color);
     font-size: 1.5rem;
     padding: 0.1rem;
+    text-align: center;
 
 }
 
@@ -94,13 +95,18 @@ footer {
     margin: auto;
     font-size: 1.5rem;
     background-color: var(--primary-color);
-    max-width: 600px;
+    
     text-align: center;
     padding: 0.3rem;
 }
 
+.footer-link{
+    text-decoration: none;
+    color: black;
+}
+
 .icon{
-    padding: 0px 5px;
+    padding: 0px 15px 10px 15px;
 }
 
 .hidden {
