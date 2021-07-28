@@ -21,19 +21,22 @@
             <p><strong>Privacy Notice:</strong> We do not store your data. <span class="close-btn">X</span></p>
         </section>
 
-        <form id="form">
+
+        <!-- onsubmit="checkHandler(e);return flase;" -->
+
+        <form id="form" >
             <section id="input-date">
                 <label class="label" for="date">Enter your birthday</label>
                 <input type="date" id="date" class="input-field" placeholder="DD-MM-YYYY" required>
             </section>
             <section id="input-lucky">
                 <label for="luckyNo" class="label">Enter your Lucky Number</label>
-                <input  min="1" type="number" placeholder="Enter your Lucky Number" class="input-field" required>
+                <input id="lucky-number" min="1" type="number" placeholder="Enter your Lucky Number" class="input-field" required>
             </section>
         
 
         <section id="check-btn">
-            <button id="check" class="check-btn">Check</button>
+            <button type="submit"  id="check" class="check-btn">Check</button>
         </section>
 
         </form>
@@ -41,7 +44,7 @@
             <p class="message"></p>
         </section>
         <section id="image-section">
-
+            <img id="image" class="image">
         </section>
 
     </main>
